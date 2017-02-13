@@ -54,13 +54,11 @@ var getPrimes = require('../getPrimes');
         expect(response).toEqual([ 2, 3 ]);
       });
 
+      
+
     });
       
-    describe("Test cases for getPrimes function", function() {
-
-      
-      
-      });
+    
 
       
 

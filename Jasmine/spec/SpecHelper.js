@@ -6,7 +6,7 @@ beforeEach(function () {
           var player = actual;
 
           return {
-            pass: player.currentlyPlayingSong === expected && player.isPlaying
+            pass: player.currentlyPlayingGame === expected && player.isPlaying
           };
         }
       };

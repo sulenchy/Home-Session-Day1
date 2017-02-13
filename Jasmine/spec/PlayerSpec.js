@@ -12,7 +12,7 @@ describe("Player", function() {
     expect(player.currentlyPlayingGame).toEqual(game);
 
     //demonstrates use of custom matcher
-    //expect(player).toBePlaying(game);
+    expect(player).toBePlaying(game);
   });
 
   describe("when game has been paused", function() {

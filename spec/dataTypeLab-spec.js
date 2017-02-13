@@ -98,7 +98,7 @@ describe("Data types tests ", function() {
         }
       };
       var response =dataTypeLab.dataTypeLab(callback);
-      expect(response).toBe('called callback');
+      expect(dataTypeLab.dataTypeLab(callback)).toBe('called callback');
     });
   });
 });
